@@ -1,0 +1,1161 @@
+@charset "utf-8";
+
+/* Category Sort */
+#categorySort {
+    width: 950px;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+}
+
+#categorySort ul li {
+    float: left;
+}
+
+#categorySort ul li:not(:first-child) {
+    background: url("../img/sub/ico_arrow_right.gif") no-repeat 9px 57%;
+    padding-left: 22px;
+}
+
+#categorySort ul li a {
+    font-size: 13px;
+    padding: 2px;
+}
+
+#categorySort ul li:not(:first-child) a {
+    border: 1px solid #dadada;
+    padding-right: 17px;
+    padding-left: 5px;
+    background: url("../img/sub/ico_arrow_bot.gif") no-repeat 90% 50%;
+}
+
+/* Book Infomations */
+#bookInfo {
+    width: 950px;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    display: flex;
+}
+
+.bookImg {
+    width: 200px;
+    height: 288px;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+.bookImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bookView {
+    width: 200px;
+    padding: 12px 0 18px;
+    background: url('../img/sub/ico_line.gif') no-repeat 50% 72%;
+}
+
+.bookView a {
+    text-align: center;
+    display: block;
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+
+.bookLocate {
+    display: block;
+    clear: both;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    width: 200px;
+    color: #f84400;
+    border: 1px solid #aaa;
+    padding: 5px 0;
+    margin: 10px 0 15px;
+}
+
+.bookLocate:hover {
+    border: 1px solid #777;
+}
+
+.bookKeyword {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 13px;
+}
+
+.bookKeyword h3 {
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+.bookKeyword ul li {
+    display: inline-block;
+}
+
+.bookKeyword ul li a {
+    display: block;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 4px 10px;
+    margin: 3px 0;
+    border-radius: 15px;
+}
+
+.bookInfoWrap {
+    margin-left: 45px;
+    width: 100%;
+}
+
+.bookTitleCont {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+
+.bookTitle {
+    font-size: 22px;
+    display: inline-block;
+    line-height: 1.7;
+    clear: both;
+    color: #3a60df;
+}
+
+.bookSubtitle {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.bookMade {
+    display: flex;
+    font-size: 12px;
+    margin: 6px 0;
+}
+
+.bookMade li {
+    padding-right: 6px;
+    color: #777;
+}
+
+.bookMade li a {
+    color: #555;
+}
+
+.bookMade li:not(:first-child) {
+    padding-left: 6px;
+    background: url('../img/sub/ico_line.gif') no-repeat 0% 60%;
+}
+
+.kloverRate {
+    font-size: 12px;
+    margin: 15px 0 4px;
+}
+
+.kloverImg {
+    float: left;
+    width: 54px;
+    height: 14px;
+    background: url("../img/sub/ico_klover.gif") no-repeat 0 1px;
+    margin-right: 6px;
+}
+
+.klover_rate {
+    font-weight: 600;
+    padding: 0 2px;
+}
+
+.klover_btn {
+    border: 1px solid #aaa;
+    padding: 2px 4px;
+    margin-left: 4px;
+    color: #677ee8;
+    letter-spacing: -1px;
+}
+
+.bookRank a {
+    font-size: 12px;
+}
+
+.rankDome {
+    padding-right: 7px;
+    background: url("../img/sub/ico_line.gif") no-repeat 100% 55%;
+}
+
+.rank {
+    color: red;
+}
+
+.bookPrice {
+    border-bottom: 1px solid #ddd;
+    padding: 25px 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.bookPrice > ul > li {
+    margin: 7px 0;
+}
+
+.price_discount > span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f84400;
+}
+
+.price_benefit {
+    display: flex;
+}
+
+.price_benefit > ul > li {
+    padding: 0 5px 6px;
+}
+
+.price_benefit li > a {
+    font-size: 11px;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    color: #333;
+    letter-spacing: -.3px;
+    margin-left: 5px;
+}
+
+.price_benefit_add > a {
+    font-size: 11px;
+    border: 1px solid #ddd;
+    letter-spacing: -.3px;
+    padding: 2px 5px;
+    color: #333;
+}
+
+.bookDelivery {
+    padding: 25px 0;
+    font-size: 13px;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+}
+
+.bookDelivery > ul > li {
+    margin: 9px 0;
+}
+
+.bookDelivery > ul > li > a {
+    font-size: 11px;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    color: #333;
+    letter-spacing: -.3px;
+    margin-left: 5px;
+}
+
+.a_btn {
+    font-size: 11px;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    color: #333;
+    letter-spacing: -.3px;
+    margin-left: 5px;
+}
+
+.bookOrder {
+    padding: 25px 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.bookOrder .count {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #c6c6c6;
+    text-align: right;
+    padding: 0 8px;
+    margin-left: 5px;
+}
+
+.bookOrder button {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.bookOrder button img {
+    display: block;
+}
+
+.bookBtnWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.bookBtnWrap a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 45px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.25s;
+}
+
+.cart {
+    background: #5e6b9f;
+    color: #fff;
+}
+
+.buy {
+    background: #7b8ed1;
+    color: #fff;
+}
+
+.baro {
+    color: #193b78;
+}
+
+.ad_section {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.padding_lr {
+    padding: 0 30px;
+}
+
+/* 상품정보 */
+.tab_section {
+    padding: 25px 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.bookDetailPage {
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#productInfo .product_tab {
+    color: #3c5fdf;
+}
+
+.mainInfoWrap {
+    width: 750px;
+}
+
+.tab_content {
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    font-size: 0;
+}
+
+#productInfo .tab_content {
+    border-right: none;
+}
+
+.tab_content > a {
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    display: inline-block;
+    line-height: 36px;
+    text-align: center;
+    border-right: 1px solid #d7d7d7;
+    position: relative;
+}
+
+#productInfo .product_tab::after {
+    content: "";
+    width: 149px;
+    height: 1px;
+    z-index: 9;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+#reviewInfo .review_tab::after {
+    content: "";
+    width: 149px;
+    height: 1px;
+    z-index: 9;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+#csInfo .cs_tab::after {
+    content: "";
+    width: 149px;
+    height: 1px;
+    z-index: 9;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.ask_one {
+    float: right;
+    margin: 35px 0 12px;
+}
+
+.bookinfo_table {
+    clear: both;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.bookinfo_table td {
+    border: 1px solid #ddd;
+    line-height: 2.5;
+    color: #444;
+}
+
+.bookinfo_table tr td:first-child {
+    border-left: none;
+}
+
+.bookinfo_table tr td:last-child {
+    text-align: left;
+    padding-left: 15px;
+    border-right: none;
+}
+
+.bookinfo_Wrap {
+    padding: 30px 0 0;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.bookinfo_title {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #333;
+}
+
+.book_field > p {
+    font-weight: 600;
+    line-height: 2.2;
+}
+
+.book_field > span:not(:first-of-type) {
+    padding-left: 12px;
+    background: url("../img/sub/ico_arrow_right.gif") no-repeat 2% 52%;
+}
+
+.bookinfo_sentence {
+    font-weight: 600;
+    padding: 30px 0 5px;
+}
+
+.bookinfo_reco {
+    padding: 15px 0 25px;
+}
+
+.bookinfo_detail {
+    padding: 25px 0;
+}
+
+.author {
+    padding: 30px 0 18px;
+}
+
+.author:first-of-type {
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.author_info {
+    float: right;
+}
+
+.author_tag {
+    padding: 8px 0 14px;
+}
+
+.author_tag > a {
+    border: 1px solid #d7d7d7;
+    padding: 3px 7px;
+    border-radius: 15px;
+    color: #555;
+}
+
+.author_life {
+    height: 44px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.author_other {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 20px 25px;
+}
+
+.author_bookcover {
+    width: 100px;
+    height: 144px;
+    border: 1px solid #dadada;
+    margin: 0 auto;
+    transition: box-shadow 0.2s;
+}
+
+.author_container li:hover .author_bookcover {
+    border: 1px solid #999;
+    box-shadow: 1px 1px 2px #ddd;
+}
+
+.author_bookcover img {
+    width: 100%;
+}
+
+.author_container {
+    position: relative;
+}
+
+.author_container ul {
+    display: flex;
+    justify-content: center;
+}
+
+.author_container ul li {
+    text-align: center;
+    margin: 15px 5px;
+}
+
+.author_title, .author_price {
+    display: block;
+    font-size: 12px;
+}
+
+.author_title {
+    padding-top: 10px;
+    height: 45px;
+    width: 140px;
+    line-height: 1.3;
+}
+
+.author_price {
+    color: #f04653;
+}
+
+.author_container button {
+    position: absolute;
+    top: 80px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.author_btn_left {
+    left: -10px;
+}
+
+.author_btn_right {
+    right: -10px;
+    transform: rotate(180deg);
+}
+
+
+
+
+.book_content > p {
+    padding: 8px 0;
+}
+
+.bookcard {
+    width: 340px;
+    height: 318px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 8px 0;
+}
+
+.bookcard img {
+    width: 100%;
+    height: 100%;
+}
+
+.bookcard_list {
+    width: 340px;
+    height: 318px;
+    float: right;
+    position: relative;
+    margin: 8px 0;
+}
+
+.bookcard_list ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bookcard_list ul li {
+    width: 48%;
+    float: left;
+}
+
+.bookcard_list ul li:nth-child(3), .bookcard_list ul li:nth-child(4) {
+    margin-top: 19px;
+}
+
+.bookcard_list ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_on {
+    border: 3px solid #5e6b9f;
+}
+
+.bookcard_list button {
+    display: none;
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+}
+
+.btn_left {
+    left: 0;
+    background: url("../img/sub/btn_lr.png") no-repeat 0 0;
+}
+
+.btn_left:hover {
+    background: url("../img/sub/btn_lr.png") no-repeat 0 100%;
+}
+
+.btn_right {
+    right: 0;
+    background: url("../img/sub/btn_lr.png") no-repeat 100% 0;
+}
+
+.btn_right:hover {
+    background: url("../img/sub/btn_lr.png") no-repeat 100% 100%;
+}
+
+/* 회원리뷰 */
+#reviewInfo .review_tab {
+    color: #3c5fdf;
+}
+
+.klover_wrap {
+    width: 100%;
+    height: 230px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reward {
+    width: 100%;
+    height: 20%;
+    background: #f7f7f7;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.total {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ddd;
+}
+
+.evaluation {
+    width: 50%;
+    height: 80%;
+}
+
+.write {
+    background: #12b388;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+.klover_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.klover_img {
+    width: 74px;
+    height: 80px;
+    background: url("../img/sub/klover.png") no-repeat 64% 0;
+}
+
+.klover_rating {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.klover_heart span {
+    margin-bottom: 16px;
+    display: block;
+}
+
+.klover_heart ul {
+    width: 200px;
+    padding-top: 12px;
+}
+
+.klover_heart li {
+    display: flex;
+    align-items: center;
+}
+
+.heart_4 {
+    width: 54px;
+    height: 13px;
+    background: url("../img/sub/ico_klover.gif") no-repeat 0 0;
+}
+
+.heart_3 {
+    width: 54px;
+    height: 13px;
+    background: url("../img/sub/ico_klover.gif") no-repeat 0 -32px;
+}
+
+.heart_2 {
+    width: 54px;
+    height: 13px;
+    background: url("../img/sub/ico_klover.gif") no-repeat 0 -64px;
+}
+
+.heart_1 {
+    width: 54px;
+    height: 13px;
+    background: url("../img/sub/ico_klover.gif") no-repeat 0 -96px;
+}
+
+.heart_4 ~ .gauge {
+    display: inline-block;
+    width: 120px;
+    height: 11px;
+    background: #6edec5;
+    margin-left: 8px;
+}
+
+.heart_3 ~ .gauge {
+    display: inline-block;
+    width: 20px;
+    height: 11px;
+    background: #6edec5;
+    margin-left: 8px;
+}
+
+.heart_2 ~ .gauge {
+    display: inline-block;
+    width: 0px;
+    height: 11px;
+    background: #6edec5;
+    margin-left: 8px;
+}
+
+.heart_1 ~ .gauge {
+    display: inline-block;
+    width: 0px;
+    height: 11px;
+    background: #6edec5;
+    margin-left: 8px;
+}
+
+.evaluation > ul {
+    display: flex;
+    justify-content: space-between;
+    height: 182px;
+    padding: 25px;
+}
+
+.evaluation > ul > li {
+    position: relative;
+    width: 33px;
+}
+
+.evaluation li > .em_rate {
+    display: block;
+    width: 47px;
+    height: 54px;
+    position: absolute;
+    bottom: -5px;
+    left: -6px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 40px;
+    color: #999;
+    letter-spacing: -.6px;
+}
+
+.em_best .em_rate {
+    background: url("../img/sub/emoticons.png") no-repeat 4px 0;
+}
+
+.em_good .em_rate {
+    background: url("../img/sub/emoticons.png") no-repeat -49px 0;
+}
+
+.em_read .em_rate {
+    background: url("../img/sub/emoticons.png") no-repeat -101px 0;
+}
+
+.em_creative .em_rate {
+    background: url("../img/sub/emoticons.png") no-repeat -154px 0;
+}
+
+.em_useful .em_rate {
+    background: url("../img/sub/emoticons.png") no-repeat -205px 0;
+}
+
+.em_etc .em_rate {
+    background: url("../img/sub/emoticons.png") no-repeat -259px 0;
+}
+
+.em_bar {
+    width: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+}
+
+.em_best .em_bar {
+    background: #ffdfa7;
+    height: 100%;
+}
+
+.em_good .em_bar {
+    background: #a5ede6;
+    height: 100%;
+}
+
+.em_read .em_bar {
+    background: #f0b7b8;
+    height: 100%;
+}
+
+.em_creative .em_bar {
+    background: #dbdafd;
+    height: 100%;
+}
+
+.em_useful .em_bar {
+    background: #bae6ff;
+    height: 100%;
+}
+
+.em_etc .em_bar {
+    background: #f6baf7;
+    height: 100%;
+}
+
+.booklog_notice {
+    background: #f5f5f5;
+    padding: 15px 20px;
+    line-height: 1.5;
+}
+
+.review_klover, .review_booklog {
+    margin-top: 35px;
+}
+
+.review_container {
+    margin: 20px 0;
+}
+
+.review_container span:first-of-type {
+    padding-left: 8px;
+}
+
+.review_container span {
+    padding: 0 2px;
+}
+
+.review_id::after, .review_date::after, .review_reco::after {
+    content: "|";
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.review_content {
+    margin-top: 10px;
+    line-height: 1.8;
+    font-size: 12px;
+}
+
+.pagination {
+    text-align: center;
+    color: #0172c9;
+    user-select: none;
+}
+
+.page_prev, .page_next {
+    border: none;
+    background: none;
+    cursor: pointer;
+    vertical-align: sub;
+}
+
+/* 교환/반품/품절 */
+#csInfo .cs_tab {
+    color: #3c5fdf;
+}
+
+.cs_info {
+    font-size: 12px;
+}
+
+.cs_container {
+    margin-top: 35px;
+}
+
+.cs_table {
+    width: 100%;
+    font-size: 11px;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.cs_table th, .cs_table td {
+    border: 1px solid #ddd;
+    line-height: 1.6;
+}
+
+.cs_table th {
+    color: #000;
+    padding: 0 28px 0 10px;
+    text-align: left;
+    white-space: nowrap;
+    background: #eee;
+}
+
+.cs_table td {
+    padding: 10px;
+}
+
+.cs_refer {
+    margin-top: 6px;
+    display: block;
+    line-height: 1.4;
+}
+
+.cs_table li {
+    padding: 1px 0 0 7px;
+    background: url("../img/sub/ico_li.gif") no-repeat 0 8px;
+}
+
+/* gift */
+#gift_wrap {
+    margin: 60px 0 80px;
+}
+
+.gift_container {
+    font-size: 13px;
+    width: 100%;
+    position: relative;
+}
+
+.gift_container:first-of-type {
+    margin: 10px 0 40px;
+}
+
+.gift_container ul {
+    display: flex;
+    justify-content: center;
+}
+
+.gift_container ul li {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.gift_container ul li:hover .gift_img {
+    border: 1px solid #afafaf;
+    box-shadow: 1px 1px 2px #ddd; 
+}
+
+.gift_img {
+    width: 175px;
+    height: 175px;
+    border: 1px solid #d7d7d7;
+    margin: 0 auto;
+    transition: box-shadow 0.2s;
+}
+
+.gift_img img {
+    width: 100%;
+}
+
+.gift_title {
+    width: 175px;
+    padding: 10px 5px 15px;
+    display: block;
+}
+
+.gift_price {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 11px;
+    color: #666;
+}
+
+.gift_discount {
+    color: #d1a05d;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.gift_container button {
+    position: absolute;
+    top: 75px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.gift_btn_left {
+    left: 0;
+}
+
+.gift_btn_right {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+/* aside */
+.sideInfoWrap {
+    width: 200px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    margin-top: 25px;
+    height: 1056px;
+}
+
+.best_rank, .new_rank {
+    padding: 10px
+}
+
+.img_cover {
+    width: 55px;
+    height: 79px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    position: relative;
+}
+
+.side_book_wrap {
+    display: flex;
+    margin: 15px 0;
+}
+
+.side_container {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 4px 0;
+}
+
+.img_cover img {
+    width: 100%;
+}
+
+.side_title {
+    width: 114px;
+    height: 32px;
+    letter-spacing: -.4px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.side_author {
+    width: 103px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 5px 0 2px;
+    color: #777;
+}
+
+.side_title, .side_author, .side_price {
+    display: block;
+}
+
+.side_title, .side_author {
+    font-size: 12px;
+}
+
+.side_price {
+    color: #f84450;
+    font-weight: 600;
+}
+
+.best_rank .img_cover::after {
+    width: 20px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f04653;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 11px;
+    font-family: 'Tahoma', 'Arial';
+    padding: 2px 0;
+}
+
+.best_01::after {
+    content: "1";
+}
+
+.best_02::after {
+    content: "2";
+}
+
+.best_03::after {
+    content: "3";
+}
+
+.best_04::after {
+    content: "4";
+}
+
+.best_05::after {
+    content: "5";
+}
+
+.new_rank {
+    border-top: 1px solid #ddd;
+}

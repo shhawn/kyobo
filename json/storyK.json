@@ -1,0 +1,41 @@
+[{
+    "category": "북캐스트",
+    "title": "취준생 커피로 진로 바꾼 사연",
+    "contents": "자동 음성지원되는 대본집의 매력",
+    "thumbnail": "img/cast01.jpg"
+}, {
+    "category": "북캐스트",
+    "title": "이것은 과학인가, 소설인가?",
+    "contents": "인간의 욕망이 진리를 넘어설 때",
+    "thumbnail": "img/cast02.jpg"
+}, {
+    "category": "북캐스트",
+    "title": "헤르만 헤세가 사랑한 것",
+    "contents": "음악이 시의 언어가 되는 마법",
+    "thumbnail": "img/cast03.jpg"
+}, {
+    "category": "북캐스트",
+    "title": "거울 속 나를 마주할 용기",
+    "contents": "용기를 낸 선택들이 인생이 된다",
+    "thumbnail": "img/cast04.jpg"
+}, {
+    "category": "북뉴스",
+    "title": "작가와의 만남",
+    "contents": "심용환 『리더의 상상력』",
+    "thumbnail": "img/author01.jpg"
+}, {
+    "category": "북뉴스",
+    "title": "작가와의 만남",
+    "contents": "애슐리 윌런스 『시간을 찾아드립니다』",
+    "thumbnail": "img/author02.jpg"
+}, {
+    "category": "북모닝",
+    "title": "오십에 읽는 논어",
+    "contents": "굽이치는 인생을 다잡아 주는 공자의 말",
+    "thumbnail": "img/morning01.jpg"
+}, {
+    "category": "북모닝",
+    "title": "부를 만드는 경험의 힘",
+    "contents": "당신의 경험을 값비싼 콘텐츠로 만드는 방법",
+    "thumbnail": "img/morning02.jpg"
+}]
